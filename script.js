@@ -35,5 +35,7 @@ function calculateContrastRatio() {
         contrastRatio = contrastRatio.toFixed(2);
 
         ratioOutput.innerText = contrastRatio;
+
+        document.getElementById("ratio-output-card").style.opacity = "1";
     }
 }
